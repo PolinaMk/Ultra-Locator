@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background: #F5F5F5;
+    margin-top: 24px;
+}
+
+.container {
+    max-width: 1392px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.block__title {
+    max-width: 1130px;
+    margin: 0 auto 48px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+
+/*Conditions
+===========================*/
+.conditions {
+    margin-bottom: 24px;
+}
+
+.conditions__wrapper {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 96px 0;
+}
+
+.conditions__text-wrapper,
+.additional-text {
+    max-width: 1130px;
+    margin: 0 auto 48px;
+}
+
+.additional-text:last-child {
+   margin-bottom: 0;
+}
+
+.conditions__text,
+.conditions__text-additional {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin-bottom: 24px;
+}
+
+.conditions__text:last-child,
+.conditions__text-additional:last-child {
+    margin-bottom: 0;
+}
+
+.additional-text__title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1D1D1D;
+    margin-bottom: 8px;
+}
+
+/*Header
+===========================*/
+.header {
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:24px;
+    margin-bottom: 24px;
+    z-index: 3;
+}
+
+.header-wrapper {
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1D1D1D;
+}
+
+
+/*Footer
+===========================*/
+.footer {
+    padding-bottom: 24px;
+}
+
+.join-us__title {
+    max-width: 1000px;
+}
+
+.join-us__wrapper {
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 40px;
+}
+
+.join-us__app-link {
+    max-width: 322px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.join-us__image-wrapper {
+    max-width: 322px;
+}
+
+.join-us__links {
+    flex-grow: 1;
+    padding: 56px 48px;
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.join-us__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.join-us__QR-wrapper {
+    background: #FFFFFF;
+    border-radius: 40px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-us__link {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 72px;
+    color: #E0E0E0;
+}
+
+.join-us__link:hover {
+    color: #343434;
+}
+
+.join-us__link:active {
+    color: #1D1D1D;
+}
+
+.link-wrapper {
+    margin-bottom: 8px;
+}
+
+.link-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.join-us__copyright {
+    display: flex;
+}
+
+.join-us__additional-text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1D1D1D;
+}
+
+.copyright {
+    margin-right: 443px;
+}
+
+.privacy-policy {
+    margin-right: 8px;
+}
+
+.privacy-policy:hover,
+.conditions:hover {
+    color: #E0E0E0;
+}
+
+
+/*Button
+===========================*/
+.button {
+    display: flex;
+    background: #1D1D1D;
+    border-radius: 1000px;
+    padding: 16px 0;
+    align-items: center;
+    max-width: 168px;
+    width: 100%;
+}
+
+.button__apple-icon {
+    margin-right: 14px;
+}
+
+.button__text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.button__content-wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__button-download {
+    max-width: 100%;
+    padding: 24px 0;
+}
+
+.footer__button-download:hover,
+.footer__button-download:active,
+.button:hover,
+.button:active {
+    background: #3C3C43;
+}
+
+.footer__button-text {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.footer__button__apple-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}

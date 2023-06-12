@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background: #F5F5F5;
+    margin-top: 24px;
+}
+
+.container {
+    max-width: 1392px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
+/*Header
+===========================*/
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 24px;
+    margin-bottom: 24px;
+    z-index: 3;
+}
+
+.header-wrapper {
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1D1D1D;
+}
+
+
+/*Error
+===========================*/
+.error__wrapper {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 128px 0 72px 56px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.error__text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 662px;
+    background: linear-gradient(88.25deg, #2F90FC 3.55%, #73A6DF 47.79%, #BFBFBF 96.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.error__title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 176px;
+    line-height: 130px;
+    margin-bottom: 16px;
+}
+
+.error__subtitile {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 56px;
+}
+
+.promo__hand {
+    position: absolute;
+    right: 2.5%;
+}
+
+.download-image {
+    position: absolute;
+}
+
+.promo__hand-wrapper {
+    top: 56px;
+}
+
+.phone-wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 27%;
+    top: -12%;
+}
+
+/*Button
+===========================*/
+.button {
+    position: absolute;
+    display: flex;
+    background: #1D1D1D;
+    border-radius: 1000px;
+    padding: 12px 0;
+    align-items: center;
+    max-width: 248px;
+    width: 100%;
+    top: 470px;
+}
+
+.button__back-home {
+    top: 524px;
+    background: #FFFFFF;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1D1D1D;
+    text-align: center;
+    display: block;
+}
+
+.button__apple-icon {
+    margin-right: 13px;
+}
+
+.button__text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.button__content-wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover,
+.button:active {
+    background: #3C3C43;
+}
+
+.button__back-home:hover,
+.button__back-home:active {
+    background: #FFFFFF;
+    color: #E0E0E0;
+}
