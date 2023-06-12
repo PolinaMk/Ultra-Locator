@@ -64,7 +64,7 @@ body {
 .error__wrapper {
     background: #FFFFFF;
     border-radius: 40px;
-    padding: 128px 0 72px 56px;
+    padding: 128px 0 0 56px;
     display: flex;
     margin: 0 auto;
 }
@@ -97,8 +97,7 @@ body {
 }
 
 .promo__hand {
-    position: absolute;
-    right: 2.5%;
+    position: relative;
 }
 
 .download-image {
@@ -106,16 +105,17 @@ body {
 }
 
 .promo__hand-wrapper {
-    top: 56px;
+    top: 4px;
+    position: relative;
 }
 
 .phone-wrapper {
     display: flex;
-    position: relative;
+    position: absolute;
     align-items: center;
     justify-content: center;
-    left: 27%;
-    top: -12%;
+    left: calc(100% - 575px);
+    top: calc(100% - 750px);
 }
 
 /*Button

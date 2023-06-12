@@ -133,6 +133,9 @@ body {
     display: flex;
     column-gap: 24px;
     margin-bottom: 40px;
+    row-gap: 24px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .join-us__app-link {
@@ -145,6 +148,7 @@ body {
 
 .join-us__image-wrapper {
     max-width: 322px;
+    width: 100%;
 }
 
 .join-us__links {
