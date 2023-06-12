@@ -1,1 +1,1 @@
-### https://polinamk.github.io/Ultra-Locator/main.html
+### https://polinamk.github.io/Ultra-Locator/index.html
