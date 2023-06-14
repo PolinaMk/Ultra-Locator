@@ -657,7 +657,7 @@ body {
     .promo__hand-wrapper {
         position: -webkit-sticky;
         position: sticky;
-        top: 316px;
+        top: 120px;
         z-index: 1;
         margin-bottom: 20px;
         overflow: hidden;
@@ -778,7 +778,7 @@ body {
     }
 
     .example__hand-wrapper {
-        top: 316px;
+        top: 120px;
         margin-top: 0;
     }
 
