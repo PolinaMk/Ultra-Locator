@@ -96,12 +96,14 @@ body {
     margin-bottom: 56px;
 }
 
-.promo__hand {
+.hand-wrapper__image {
     position: relative;
 }
 
-.download-image {
+.download-wrapper__image {
     position: absolute;
+    max-width: 268px;
+    overflow: hidden;
 }
 
 .promo__hand-wrapper {
@@ -116,6 +118,12 @@ body {
     justify-content: center;
     left: calc(100% - 575px);
     top: calc(100% - 750px);
+}
+
+.download-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*Button
@@ -174,4 +182,101 @@ body {
 .button__back-home:active {
     background: #FFFFFF;
     color: #E0E0E0;
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+
+    .header-wrapper {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /*Error
+    ===========================*/
+    .error__wrapper {
+        width: 100%;
+        min-height: 937px;
+        padding: 24px 16px;
+        display: inline-block;
+    }
+
+    .error__title {
+        font-size: 96px;
+        line-height: 104px;
+        margin-bottom: 1px;
+    }
+
+    .error__subtitile {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 8px;
+    }
+
+    .error__text {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .iPhone-wrapper__image {
+        width: 232px;
+        overflow: hidden;
+    }
+
+    .phone-image,
+    .promo__hand,
+    .download-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .promo__hand {
+        transform: translateX(137px);
+    }
+
+    .hand-wrapper__image {
+        position: relative;
+        width: 460px;
+        overflow: hidden;
+        top: 86px;
+        right: 133px;
+    }
+
+    .download-wrapper__image {
+        max-width: 207px;
+        overflow: hidden;
+    }
+
+    .phone-wrapper {
+        left: 41px;
+        top: 24px;
+    }
+
+    .button {
+        padding: 6px 0;
+        max-width: 190px;
+        top: 361px;
+    }
+
+    .button__back-home {
+        top: 403px;
+    }
+
+    .button__text {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .button__apple-icon {
+        margin-right: 8px;
+        width: 12px;
+    }
 }
