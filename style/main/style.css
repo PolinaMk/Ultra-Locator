@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+}
+
 li {
     list-style-type: none;
 }
@@ -61,13 +65,13 @@ body {
 /*Promo
 ===========================*/
 .promo {
-    margin-bottom: 128px;
+    margin-bottom: 200px;
 }
 
 .promo__wrapper {
     background: #FFFFFF;
     border-radius: 40px;
-    padding: 96px 0 250px;
+    padding: 96px 0 222px;
 }
 
 .promo__title {
@@ -132,7 +136,7 @@ body {
 }
 
 .text-first {
-    margin-top: 770px;
+    margin-top: 88px;
 }
 
 .text-second {
@@ -224,7 +228,7 @@ body {
 /*Examples
 ===========================*/
 .examples {
-    padding-bottom: 200px;
+    padding-bottom: 146px;
 }
 
 .examples__wrapper {
@@ -266,7 +270,7 @@ body {
 
 .example__sticky-wrapper {
     height: 1327px;
-    padding-bottom: 70px;
+    padding-bottom: 123px;
 }
 
 .item-tracking {
@@ -338,7 +342,7 @@ body {
     display: flex;
     column-gap: 24px;
     row-gap: 24px;
-    margin-bottom: 128px;
+    margin-bottom: 200px;
     flex-wrap: wrap;
 }
 
@@ -510,6 +514,7 @@ body {
     font-size: 72px;
     line-height: 72px;
     color: #E0E0E0;
+    background: none;
 }
 
 .join-us__link:hover {
@@ -610,6 +615,105 @@ body {
     margin-right: 8px;
 }
 
+/*Button
+===========================*/
+.pop_up__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+    transition: all 0.3s linear;
+    display: none;
+}
+
+.pop_up__overlay-active {
+    display: block;
+    transition: all 0.3s linear;
+}
+
+.pop_up__wrapper {
+    display: none;
+    z-index: 5;
+    margin: 35px auto;
+    position: fixed;
+    top: 0px;
+    max-width: 1360px;
+}
+
+.pop_up__active {
+    display: block;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.pop_up__container {
+    background: #1D1D1D;
+    border-radius: 40px;
+    display: flex;
+}
+
+.pop_up__text-block {
+    padding: 48px 127px 48px 48px;
+    width: 50%;
+}
+
+.pop_up__photo-block {
+    width: 50%;
+    position: relative;
+}
+
+.pop_up__photo-wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 40px 40px 0;
+    overflow: hidden;
+}
+
+.pop_up__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pop_up__button {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: block;
+    padding: 19.21px;
+    top: 48px;
+    right: 48px;
+    cursor: pointer;
+}
+
+.pop_up__button-close {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pop_up__title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.pop_up__title-color {
+    background: linear-gradient(88.25deg, #2F90FC 3.55%, #73A6DF 47.79%, #BFBFBF 96.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 @media (min-width: 1600px) {
     .examples__wrapper {
@@ -659,7 +763,7 @@ body {
         position: sticky;
         top: 120px;
         z-index: 1;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
         overflow: hidden;
         height: 450px;
     }
@@ -707,7 +811,7 @@ body {
     }
 
     .text-first {
-        margin-top: 752px;
+        margin-top: -48px;
     }
 
     .promo {
@@ -718,7 +822,7 @@ body {
     /*About
     ===========================*/
     .about {
-        margin-bottom: 144px;
+        margin-bottom: 96px;
     }
 
     .about__text {
@@ -754,6 +858,10 @@ body {
 
     /*Example
     ===========================*/
+    .examples {
+        padding-bottom: 0;
+    }
+
     .examples__wrapper-image,
     .example__text-item {
         width: 100%;
@@ -791,12 +899,10 @@ body {
     }
 
     .example__sticky-wrapper {
-        padding-bottom: 0;
-    }
-
-    .example__sticky-wrapper {
         max-width: 343px;
         margin: 0 auto;
+        height: 690px;
+        padding-bottom: 155px;
     }
 
 
@@ -869,14 +975,22 @@ body {
     }
 
     .explanations {
-        margin-bottom: 128px;
+        margin-bottom: 96px;
+    }
+
+    .phone-wrapper {
+        margin-bottom: -4px;
+    }
+
+    .explanations__wrapper {
+        margin-bottom: 96px;
     }
 
 
     /*Dont-worry
     ===========================*/
     .dont-worry {
-        margin-bottom: 128px;
+        margin-bottom: 96px;
     }
 
     .dont-worry__iPhone-wrapper {
