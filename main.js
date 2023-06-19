@@ -32,3 +32,28 @@ titleProtect.addEventListener("click", () => {
     titleShare.classList.remove("advantage__title-active");
     textShare.classList.add("advantage__text-inactive");
 });
+
+
+// Pop-up
+const emailLink = document.querySelector("#email-link");
+const popUp = document.querySelector(".pop_up__wrapper");
+const overlayPopUp = document.querySelector(".pop_up__overlay");
+const popUpButton = document.querySelector(".pop_up__button");
+
+emailLink.addEventListener("click", () => {
+    overlayPopUp.classList.toggle("pop_up__overlay-active");
+    popUp.classList.toggle("pop_up__active");
+    document.body.classList.toggle("hidden");
+});
+
+overlayPopUp.addEventListener("click", () => {
+    overlayPopUp.classList.remove("pop_up__overlay-active");
+    popUp.classList.remove("pop_up__active");
+    document.body.classList.remove("hidden");
+});
+
+popUpButton.addEventListener("click", () => {
+    overlayPopUp.classList.remove("pop_up__overlay-active");
+    popUp.classList.remove("pop_up__active");
+    document.body.classList.remove("hidden");
+});
