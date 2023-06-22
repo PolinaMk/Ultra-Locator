@@ -7,7 +7,7 @@
 
     $mail = new PHPMailer(true);
     $mail->CharSet = 'UTF-8';
-    $mail->setLanguage('ru', 'PHPMailer-6.8.0/language/');
+    $mail->setLanguage('ca', 'PHPMailer-6.8.0/language/');
     $mail->IsHTML(true);
 
     $mail->setForm('m69051236@gmail.com', 'Admin');

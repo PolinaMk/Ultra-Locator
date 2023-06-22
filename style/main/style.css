@@ -637,7 +637,7 @@ body {
 .pop_up__wrapper {
     display: none;
     z-index: 5;
-    margin: 35px auto;
+    margin: 20px auto;
     position: fixed;
     padding: 0 15px;
     top: 0;
