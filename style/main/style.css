@@ -1113,7 +1113,7 @@ body {
     }
 
     .explanation__enjoy-item {
-        padding-bottom: 56px;
+        padding-bottom: 44px;
     }
 
     .explanations {
@@ -1122,6 +1122,10 @@ body {
 
     .phone-wrapper {
         margin-bottom: -4px;
+    }
+
+    .phone-wrapper__enjoy {
+        margin-bottom: 15px;
     }
 
     .explanations__wrapper {
