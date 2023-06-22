@@ -790,8 +790,8 @@ body {
     position: absolute;
     top: 0;
     left: -2px;
-    width: 110%;
-    height: 110%;
+    width: 102%;
+    height: 102%;
     background: rgb(29, 29, 29) url("../../assets/images/loading-gif.gif") center / 50px no-repeat;
     opacity: 0;
     visibility: hidden;

@@ -2,12 +2,12 @@
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
-    require 'PHPMailer-6.8.0/src/Exception.php';
-    require 'PHPMailer-6.8.0/src/PHPMailer.php';
+    require 'PHPMailer/src/Exception.php';
+    require 'PHPMailer/src/PHPMailer.php';
 
     $mail = new PHPMailer(true);
     $mail->CharSet = 'UTF-8';
-    $mail->setLanguage('ca', 'PHPMailer-6.8.0/language/');
+    $mail->setLanguage('ca', 'PHPMailer/language/');
     $mail->IsHTML(true);
 
     $mail->setForm('m69051236@gmail.com', 'Admin');
