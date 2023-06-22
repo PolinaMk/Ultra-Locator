@@ -14,9 +14,9 @@
     //echo $fio;
     //echo "<br>";
     //echo $email;
-    if (mail("polinamakarenko.com@gmail.com", "Заявка с сайта", "Имя:".$fio.". E-mail: ".$email , "Сообщение:".$message."."From: example2@mail.ru \r\n")){ 
-        echo "сообщение успешно отправлено"; 
+    if (mail("polinamakarenko.com@gmail.com", "New message", "Name:".$fio.". E-mail: ".$email , "Message:".$message."."From: example2@mail.ru \r\n")){ 
+        echo "done"; 
     } else { 
-        echo "при отправке сообщения возникли ошибки";
+        echo "error";
     }
 ?>
