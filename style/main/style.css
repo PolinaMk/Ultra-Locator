@@ -637,7 +637,7 @@ body {
 .pop_up__wrapper {
     display: none;
     z-index: 5;
-    margin: 20px auto;
+    margin: 15px auto;
     position: fixed;
     padding: 0 15px;
     top: 0;
@@ -735,7 +735,7 @@ body {
     border: none;
     background: none;
     margin-bottom: 24px;
-    height: 40px;
+    height: 30px;
     width: 100%;
     font-family: 'SF Pro Display';
     font-style: normal;
@@ -748,25 +748,6 @@ body {
     border-bottom: 1px solid #FAFAFA;
     transition: all 0.5s ease 0s;
 }
-
-/* textarea {
-    resize: none;
-    width: 100%;
-    height: 70px;
-    background: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #FAFAFA;
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    position: relative;
-    padding: 8px 0;
-} */
 
 .form__input:focus {
     outline: none;
@@ -801,7 +782,7 @@ body {
 .form__input-text {
     resize: none;
     width: 100%;
-    height: 70px;
+    height: 60px;
     background: none;
     border-top: none;
     border-left: none;
@@ -1010,6 +991,10 @@ body {
         height: 699px;
         display: flex;
         align-items: center;
+    }
+
+    .item-safety {
+        padding: 252px 32px;
     }
 
     .hidden-item{
